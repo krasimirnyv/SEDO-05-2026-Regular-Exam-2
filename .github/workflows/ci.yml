@@ -24,9 +24,6 @@ jobs:
   
     - name: Build
       run: dotnet build --no-restore
-  
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
 
     - name: Run Unit Tests
       run: dotnet test Homies.Tests/Homies.Tests.csproj --no-build --verbosity normal
